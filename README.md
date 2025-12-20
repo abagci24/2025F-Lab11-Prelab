@@ -82,7 +82,7 @@ parse_date("2021", "13", "10")  # raises ValueError("Invalid date specified.")
 parse_date("2021", "Feb", "10") # raises ValueError("Year, month, and day must be integers.")
 ```
 
-### Q4: Tab-Delimited File Validator
+# Q4: Tab-Delimited File Validator
 
 Implement a function `validate_tab_file(file_path, expected_fields, required_pattern)` that:
 
